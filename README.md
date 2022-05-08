@@ -1,4 +1,4 @@
-# Instituto-Federal
-School Works for IFNMG - Campus Montes Claros.
+# Logica-de-Programacao
+Algoritmos de programação em diversas linguagens para aprendizado
 
-//Approached for learning: C#, HTML, CSS, PHP and C++.
+//Abordado: C#, HTML, CSS, PHP e C.
