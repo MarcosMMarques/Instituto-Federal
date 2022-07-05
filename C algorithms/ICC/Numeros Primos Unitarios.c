@@ -1,6 +1,3 @@
-# Verificação de um numero primo
-
-```
 //O usuario ira escrever um numero e o algoritmo fara a verificacao se e um numero primo
 #include<stdio.h>
 
@@ -24,4 +21,4 @@ scanf("%d",&num);
     }
 return 0;
 }
-```
+
