@@ -1,3 +1,5 @@
+# Sequencia de Fibonacci com N termos
+```
 /*Neste algoritmo e nos requisitado a sequencia de fibonacci até o termo n, determinado pelo usuário
 *A sequencia de fibonacci comeca com 1, e consiste que a proxima casa sera a soma das 2 casas antecedentes
 *Por exemplo: 6 primeiros termos da sequencia de Fibonacci:{1(comeco) 1(1+0) 2(1+1) 3(2+1) 5(3+2) 8(5+3)}*/
@@ -24,4 +26,5 @@ int main(){
   }
   return 0;
 }
+```
 
