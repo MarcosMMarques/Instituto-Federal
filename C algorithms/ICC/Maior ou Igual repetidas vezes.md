@@ -1,3 +1,5 @@
+# Verificar a relacao de maior ou igual, entre N numeros
+```
 #include<stdio.h>
 #include<ctype.h>
 int main(){
@@ -10,11 +12,12 @@ int main(){
       //Scaneamos os valores
       if(v[i]>v[i+1]){//Caso haja um maior entre eles, verificamos se o primeiro e maior que o segundo.
           printf("Maior entre %d e %d : %d\n",v[i],v[i+1],v[i]);
-      }else if(v[i]==v[i+1]){//Caso nao, verificamos se eles são iguais.
+      }else if(v[i]==v[i+1]){//Caso nao, verificamos se eles sÃ£o iguais.
           printf("Iguais\n");
-      }else{//Se todas as condições atras forem falsas, entao o segundo e maior.
+      }else{//Se todas as condiÃ§Ãµes atras forem falsas, entao o segundo e maior.
           printf("Maior entre %d e %d : %d\n",v[i],v[i+1],v[i+1]);
       }
   }
   return 0;
 }
+```
