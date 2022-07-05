@@ -1,1 +1,1 @@
-> Algoritmos introdutórias a ciência da computação
+> Algoritmos introdutórios a ciência da computação
