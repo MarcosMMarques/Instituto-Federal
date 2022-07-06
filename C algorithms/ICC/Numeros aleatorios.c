@@ -25,7 +25,7 @@ int main()
   printf("Sorteiar um valor aleatorio a cada nova execucao:");
   srand(time(NULL));
   /* srand(time(NULL)) inicializa a semente com base no segundo atual
-  *apartir de 1970, gerando assim então um número realmente aleatório
+  *apartir de 1970, gerando assim entÃ£o um nÃºmero realmente aleatÃ³rio
   *a cada execucao*/
   for (i=0; i < 1; i++)//Vai se gerar um valor aleatorio.
   {
