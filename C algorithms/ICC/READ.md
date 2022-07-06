@@ -1,1 +1,1 @@
-> Algoritmos introdutórios a ciência da computação
+> Algorithms performed during the course Introduction to Computer Science (ICC).
