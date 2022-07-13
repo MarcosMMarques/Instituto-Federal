@@ -3,7 +3,6 @@
 
 int main(){
 int num,i,resposta=0;
-//Inicializamos 3 variaveis inteiras, e atribuimos a variavel resposta o algarismo zero
 scanf("%d",&num);
     for(i=2;i<=num/2;i++){
         /*Este for funcionara como um loop de algarismo do 2 ate a metade do algorismo digitado, porque?
@@ -16,7 +15,7 @@ scanf("%d",&num);
     }
     if(resposta){//Se a variavel resposta for 1, entao isso indica que o numero foi divisivel por 1 ou mais algarismos, nao sendo primo.
         printf("Nao e primo");
-    }else{//Caso a variavel resposta continue 0 ate o fim da execucai, e um numero primo.
+    }else{
         printf("E primo");
     }
 return 0;
