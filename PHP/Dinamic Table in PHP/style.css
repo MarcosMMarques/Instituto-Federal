@@ -1,0 +1,17 @@
+table{
+  margin: auto;
+}
+table, tr ,td ,th{
+  padding: 40px 400px 40px 400px;
+  border: 4px solid black;
+  border-collapse: collapse;
+  text-align: left;
+}
+thead{
+  background-color: cyan;
+  color: black;
+}
+tbody tr:nth-child(odd){
+  background-color: gray;
+  color:black;
+}
