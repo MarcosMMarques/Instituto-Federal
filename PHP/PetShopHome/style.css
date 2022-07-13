@@ -1,0 +1,114 @@
+#teste{
+    margin-left: 1150px;
+}
+#loginimg{
+    margin-left:0px;
+    margin-top: -25px;
+}
+#login{
+    display: inline-block;
+    margin-left: 1200px;
+    margin-top: 0px;
+    margin-right: 0px;
+}
+#logo{
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    position: absolute;
+    top:0%;
+    left: 0%;
+
+}
+.card {
+    margin-top: -100px;
+    position: relative;
+    width: 300px;
+    height: 150px;
+    border: solid 1px #a3b5c9;
+}
+#text {
+    position: absolute;
+    color: White;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+body {
+    height: 1000px;
+    width: 66%;
+}
+
+#img {
+    display: inline-block;
+    margin-top: -90px;
+}
+
+.ajuda {
+    border: solid black 3px;
+    padding: 5px;
+    background-image: url(ground.png);
+    background-size: cover;
+    height: 230px;
+    width: 250px;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    font-family: "Comic Sans Ms";
+    box-sizing: border-box;
+}
+
+.ajudatext {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    border: solid rgb(255, 255, 255) 3px;
+    float: left;
+    margin: 5px;
+    margin-right: 15px;
+    list-style: none;
+    background-color: #1428d6;
+    padding: 10px;
+}
+
+.link1 {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+#cen {
+    transform: translate(40%, 0%);
+    margin-top: -90px;
+}
+#ftvan{
+display:block;
+transform: translate(40%, 0%);
+}
+footer{
+    font-size: 1.5em;
+}
+hr{
+    margin-top: 25px;
+    width: 1200px;
+}
+.pictures{
+    display:inline-block;
+}
+h2{
+    display: inline-block;
+    margin-bottom:30px;
+}
+h1{
+    display:inline;
+}
+#schen{
+    display:inline-block;
+    transform: translate(40%, 0%);
+}
