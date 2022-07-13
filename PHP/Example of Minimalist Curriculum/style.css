@@ -1,0 +1,162 @@
+/* <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Currículo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quintessential&display=swap" rel="stylesheet">
+    <style type="text/css">
+    body{
+      font-family: 'Quintessential', cursive;
+      font-size:1.5em;
+      background-image: url(fundo1.jpg);
+      bakground-size:cover;
+      background-attachment: fixed;
+      margin-top:0;
+      padding-top:0;
+    }
+    #corpo{
+       background-color:white;
+      width: calc(100% - 10%);
+      margin:auto;
+      padding-top:10px;
+      margin-bottom:-100px;
+    }
+    #ft1{  
+      display:block;
+      border: 10px solid Black;
+      border-radius:50%;
+      text-align:center;
+      margin:auto;
+
+    }
+    #vitae{
+      text-align:center;
+      padding: 30px;
+      background-color:#72E635;
+      width: calc(100% - 10%);
+      margin:auto;
+      color:#EBE5A1;
+ 
+    }
+    footer{
+      font-family: 'Quintessential', cursive;
+      text-align:center;
+      padding: 30px;
+      background-color:#72E635;
+      width: calc(100% - 10%);
+      margin:auto;
+      color:#EBE5A1;
+      margin-bottom:30px;
+    }
+    #name{
+      text-align:center;
+      padding: 20px;
+      background-color: gray;
+      width: calc(100% - 10%);
+      margin:auto;
+      margin-top:100px;
+      color:Black;
+     
+    }
+    .firula{
+      border-top: solid 15px #B0F55F;
+      border-right: solid 2px #B0F55F; 
+      border-left: solid 2px #B0F55F; 
+      border-bottom: solid 15px #B0F55F; 
+      width: calc(100% - 10%);
+      margin:auto; 
+      padding:30px;
+    }
+    .conteudo{
+      text-indent: 50px;
+    }
+    #tentativa{
+      margin-left:50px;
+    }
+    li{
+      margin-top:10px;
+    }
+    .ponteiro:hover{
+      background-color: #B0F55F;
+      color:gray;
+    }
+    table{
+      margin:auto;
+    }
+    td{
+      padding:5px;
+      border:solid 4px black;
+    }
+    tr{
+      padding:5px;
+      border:solid 4px black;
+    }
+    </style>
+  </head>
+  <body>
+      <div id="corpo">
+        <div id="vitae">
+    <h2><em>Curriculum Vitae</em></h2>
+    </div>
+    <h1 id="name">Marcos Daniel Maia Marques</h1>
+    <img id="ft1" src="Foto.jpeg" height="330px" width="250px">
+    <h2 class="firula">Minicurrículo</h2>
+    <div class="conteudo">
+    <p>Possui ensino fundamental completo e atualmente está <strong>cursando</strong> técnico em Informática no IFNMG campus Montes Claros.</p>
+    <p>Gosta da área de desenvolvimento de software, tendo pouco conhecimento, mas administra estudos dentro do campus e fora com curso de programação à parte.</p>
+    <p>Minhas Qualificações:</p>
+    <ul>
+</div>
+<div id="tentativa">
+<li>Curso A, concluído em 01/01/2019,60 horas;</li>
+<li>Curso B, concluído em 02/02/2020,120 horas;</li>
+<li>Curso C, concluído em 03/03/2021,180 horas.</li>
+</div>
+    </ul>
+    <div class="conteudo">
+    <p>Atua em um projeto de pesquisa e extensão no IF com o objetivo de ensinar alunos de escolas públicas na faixa do ensino médio a entender e executar todas as etapas da impressão 3d em resina,FDM e máquinas de corte a laser.</p>
+    <p>Curto jogos,séries,gosto bastante de animais e ouvir música.</p> 
+    </div>
+    <br>
+    <h2 class="firula">Personalidade</h2>
+    <p class="conteudo">Segundo o teste de personalidade da <a class="ponteiro"href= "https://www.16personalities.com/br/teste-de-personalidade">NERIS Analytics Limited</a>, possui a <a class="ponteiro" href="https://www.16personalities.com/br/personalidade-enfj">Personalidade "Protagonista"</a>.
+    <br>
+    <table>
+    <thead>
+      <tr>
+        <th>Aspecto</th>
+        <th>%</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+      <td>Extrovertido/Introvertido</td>
+      <td>76/24</td>
+      </tr>
+      <tr>
+      <td>Intuitivo/Observador</td>
+      <td>58/42</td>
+      </tr>
+      <tr>
+      <td>Pensante/Sentimento</td>
+      <td>35/65</td>
+      </tr>
+      <tr>
+      <td>Julgador/Explorador</td>
+      <td>65/35</td>
+      </tr>
+      <tr>
+      <td>Assertivo/Cauteloso</td>
+      <td>65/35</td>
+      </tr>
+      </table>
+      <br>
+  </body>
+  <footer>
+   © 2021 - IFNMG
+  </footer>
+  </div>
+</html>
+
+<!-->https://validator.w3.org/<!--> */
