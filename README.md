@@ -1,4 +1,5 @@
-# Logica-de-Programacao
+# Logica de Programação
 Algoritmos de programação em diversas linguagens para aprendizado
 
-//Abordado: C#, PHP e C.
+* C
+* PHP
