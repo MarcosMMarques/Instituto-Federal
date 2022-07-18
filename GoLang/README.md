@@ -1,1 +1,1 @@
-Algorithms for learning Go.
+# Algorithms for learning Go.
