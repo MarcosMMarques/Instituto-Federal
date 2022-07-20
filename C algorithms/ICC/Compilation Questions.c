@@ -2,7 +2,6 @@
 #include<locale.h>
 
 int main(){
-    setlocale(LC_ALL,"portuguese");
     int loop=1;
     int questao;
 
@@ -13,13 +12,13 @@ int main(){
         int n=0,valor1=0,valor2=0,valor3=0;
         float media=0,grausf=0,grausc=0,altura=0,largura=0,comprimento=0,volume=0,racional=0;
         char nome[50];
-        case 1: //Quest�o 1
+        case 1: //Questao 1
         printf("Digite um valor:\n");
         scanf("%d",&n);
         printf("\nO valor %d subtraido de 51 e: %d\n",n,n-51);
         break;
 
-        case 2:  //Quest�o 2
+        case 2:  //Questao 2
         printf("\nDigite o primeiro valor:");
         scanf("%d",&valor1);
 
@@ -32,18 +31,18 @@ int main(){
         printf("\nA media e:%.2f\n",media);
 
         break;
-        case 3: //Quest�o 3
+        case 3: //Questao 3
         printf("\nDigite os graus em Fahrenheit:");
         scanf("%f",&grausf);
         grausc= (grausf-32)/1.8;
         printf("\nEm graus Celsius e %.2f\n",grausc);
         break;
-        case 4: //Quest�o 4
+        case 4: //Questao 4
         printf("\nEscreva um numero:\n");
         scanf("%d",&valor1);
         printf("\nSeu antecessor e %d\nSeu sucessor e %d\n",valor1-1,valor1+1);
         break;
-        case 5: //Quest�o 5
+        case 5: //Questao 5
             printf("\nDigite as proporcoes da caixa:");
             printf("\nEscreva a altura, largura e comprimento:\n");
             scanf("%f",&altura);
@@ -51,7 +50,7 @@ int main(){
             scanf("%f",&comprimento);
             printf("\nVolume:%.2f\n",altura*largura*comprimento);
         break;
-        case 6: //Quest�o 6
+        case 6: //Questao 6
             printf("\nDigite um numero para ser realizado sua tabuada:\n");
             scanf("%d",&valor1);
             printf("---------");
@@ -67,12 +66,12 @@ int main(){
             printf("\n|%d*9= %d |",valor1,valor1*9);
             printf("\n---------");
         break;
-        case 7:  //Quest�o 7
+        case 7:  //Questao 7
             printf("\nDigite o nome do indigente:\n");
             scanf("%s",&nome);
             printf("\nOla %s\n",nome);
         break;
-        case 8:  //Quest�o 8
+        case 8:  //Questao 8
             printf("\nDigite um valor inteiro e outro racional:\n");
             scanf("%d",&n);
             scanf("%f",&racional);
