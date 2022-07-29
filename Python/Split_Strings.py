@@ -1,6 +1,6 @@
 if __name__ == '__main__':
     number = int(raw_input())
-    values_list=[]
+    values_list = []
     while number > 0:
         command = (raw_input())
         if command.split()[0] == "insert":
