@@ -1,6 +1,6 @@
 from __future__ import division
 
 if __name__ == '__main__':
-    a = int(raw_input())
-    b = int(raw_input())
-    print("%d\n%f" % (a/b,a/b))
+    integer_1 = int(raw_input())
+    integer_2 = int(raw_input())
+    print("%d\n%f" % (integer_1/integer_2, integer_1/integer_2))
