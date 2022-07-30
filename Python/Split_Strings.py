@@ -17,4 +17,4 @@ if __name__ == '__main__':
             value_list.pop()
         elif command.split()[0] == "reverse":
             value_list.reverse()
-        number= number - 1
+        number = number - 1
