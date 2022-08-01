@@ -2,13 +2,13 @@ from copy import deepcopy
 
 
 class Stack:
-    def __init__(self) -> None:
+    def __init__(self):
         self.datas=[]
 
-    def push(self, item) -> None:
+    def push(self, item):
         self.datas.append(item)
 
-    def pop(self) -> None:
+    def pop(self):
         try:
             return self.datas.pop()
         except IndexError:
@@ -21,14 +21,14 @@ class Stack:
         print(self.datas[-1])
         return self.datas[-1]   
 
-    def __repr__(self) -> None:
+    def __repr__(self):
         return f'{self.datas}'
 
-    def __iter__(self) -> None:
+    def __iter__(self):
         self.index = len(self.datas)
         return self
     
-    def __next__(self) -> None:
+    def __next__(self):
         if self.index == 0:
             raise StopIteration
 
