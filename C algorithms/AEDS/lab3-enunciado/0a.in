@@ -1,0 +1,10 @@
+le_polinomio A
+1
+0 10
+imprime A
+le_polinomio B
+1
+0 100
+imprime B
+soma C = A + B
+imprime C
